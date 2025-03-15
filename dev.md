@@ -37,7 +37,7 @@ npm i docsify-cli -g
 ├── index.html
 ├── life
 │   └── README.md
-├── professional
+├── technical
 │   └── README.md
 ├── README.md
 ├── school
@@ -52,4 +52,4 @@ npm i docsify-cli -g
 - `_navbar.md` 定义顶部导航栏的内容
 - `_404.md` 定义异常页面的内容
 - `dev.md` 为项目开发指南，即本页面中的内容
-- `course` 为课程文件夹、`school` 为学校文件夹、 `professional` 为专业文件夹、 `life` 为生活文件夹、 `tool` 为工具文件夹，其中分别包含了各个模块的文档内容
+- `course` 为课程文件夹、`school` 为学校文件夹、 `technical` 为专业文件夹、 `life` 为生活文件夹、 `tool` 为工具文件夹，其中分别包含了各个模块的文档内容
