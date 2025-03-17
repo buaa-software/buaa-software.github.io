@@ -4,4 +4,7 @@
 - [生活](life/)
 - [工具](tool/)
 
-<footer id="mb-footer"></footer>
+<footer class="sidebar-footer">
+    &copy; 2025 &nbsp;
+    <a target="_blank", href="https://soft.buaa.edu.cn">北航软件学院</a>
+</footer>
