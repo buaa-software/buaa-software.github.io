@@ -40,6 +40,8 @@ docsify serve .
 ```bash
 .
 ├── _404.md
+├── _asset
+├── _media
 ├── _navbar.md
 ├── _sidebar.md
 ├── course
@@ -48,10 +50,10 @@ docsify serve .
 ├── index.html
 ├── life
 │   └── README.md
-├── technical
-│   └── README.md
 ├── README.md
 ├── school
+│   ├── README.md
+├── technical
 │   └── README.md
 └── tool
     └── README.md
@@ -63,4 +65,6 @@ docsify serve .
 - `_navbar.md` 定义顶部导航栏的内容
 - `_404.md` 定义异常页面的内容
 - `dev.md` 为项目开发指南，即本页面中的内容
+- `_asset` 为静态资源文件夹，其中包含项目所需的图片、文档等资源
+- `_media` 为媒体资源文件夹，目前存储了软件学院logo作为网页图标
 - `course` 为课程文件夹、`school` 为学校文件夹、 `technical` 为专业文件夹、 `life` 为生活文件夹、 `tool` 为工具文件夹，其中分别包含了各个模块的文档内容

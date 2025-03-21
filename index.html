@@ -17,7 +17,7 @@
       height: 100vh;
     }
 
-    .sidebar-nav {
+    .sidebar-nav ul {
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 15px;
@@ -27,11 +27,11 @@
     /* 设置 footer 样式 */
     .sidebar footer {
       position: absolute;
-      bottom: 40px; /* 调整此值，使 footer 向上移动 */
+      bottom: 35px; /* 调整此值，使 footer 向上移动 */
       width: 100%;
       padding: 10px;
       text-align: center;
-      background-color: #f8f9fa;
+      background-color: #ffffff;
       border-top: 1px solid #e9ecef;
   }
 
@@ -61,7 +61,7 @@
         noData: '找不到结果',
       },
       submaxLevel: 3,
-      sidebarDisplayLevel: 1,
+      sidebarDisplayLevel: 0,
       auto2top: true,
       mergeNavbar: true,
       notFoundPage: true,
@@ -80,6 +80,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- Sidebar collapse -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- Zoom image -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
@@ -88,6 +89,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
   <!-- Pangu -->
   <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-pangu/dist/pangu.min.js"></script>
+  <!-- PDF Embed -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script> 
+  <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
 
   <!-- Code highlight -->
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
